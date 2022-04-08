@@ -1,0 +1,9 @@
+baseURL: https://michalmatczuk.dev
+languageCode: en-us
+title: michalmatczuk.dev
+
+module:
+  imports:
+    - path: github.com/mrmierzejewski/hugo-theme-console
+
+theme: 'github.com/mrmierzejewski/hugo-theme-console'
