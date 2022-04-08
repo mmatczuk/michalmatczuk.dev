@@ -7,3 +7,14 @@ module:
     - path: github.com/mrmierzejewski/hugo-theme-console
 
 theme: 'github.com/mrmierzejewski/hugo-theme-console'
+
+params:
+  titleCutting: true
+  animateStyle: animated zoomIn fast
+  navlinks:
+    - name: about/
+      url: about/
+    - name: posts/
+      url: posts/
+    - name: photos/
+      url: photos/
