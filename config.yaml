@@ -9,7 +9,7 @@ module:
 theme: 'github.com/mrmierzejewski/hugo-theme-console'
 
 params:
-  titleCutting: true
+  titleCutting: false
   animateStyle: animated zoomIn fast
   navlinks:
     - name: about/
