@@ -1,0 +1,40 @@
+@font-face {
+    font-family: 'Go Mono';
+    src: url('../font/Go-Mono.ttf') format('truetype');
+    font-style: normal;
+    font-weight: 400;
+    text-rendering: optimizeLegibility;
+}
+
+@font-face {
+    font-family: 'Go Mono';
+    src: url('../font/Go-Mono-Italic.ttf') format('truetype');
+    font-style: italic;
+    font-weight: 400;
+    text-rendering: optimizeLegibility;
+}
+
+@font-face {
+    font-family: 'Go Mono';
+    src: url('../font/Go-Mono-Bold.ttf') format('truetype');
+    font-style: normal;
+    font-weight: 700;
+    text-rendering: optimizeLegibility;
+}
+
+@font-face {
+    font-family: 'Go Mono';
+    src: url('../font/Go-Mono-Bold-Italic.ttf') format('truetype');
+    font-style: italic;
+    font-weight: 700;
+    text-rendering: optimizeLegibility;
+}
+
+:root {
+    --mono-font-stack: Go Mono, Menlo, Monaco, Lucida Console, Liberation Mono, DejaVu Sans Mono, Bitstream Vera Sans Mono, Courier New, monospace, serif;
+    --font-stack: Go Mono, Menlo, Monaco, Lucida Console, Liberation Mono, DejaVu Sans Mono, Bitstream Vera Sans Mono, Courier New, monospace, serif;
+}
+
+body {
+    background-color: #eeeeee;
+}
