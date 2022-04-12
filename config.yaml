@@ -12,9 +12,13 @@ params:
   titleCutting: false
   animateStyle: animated zoomIn fast
   navlinks:
-    - name: about/
-      url: about/
     - name: posts/
       url: posts/
-    - name: photos/
-      url: photos/
+    - name: talks/
+      url: talks/
+    - name: books/
+      url: books/
+    - name: projects/
+      url: projects/
+    - name: about/
+      url: about/
