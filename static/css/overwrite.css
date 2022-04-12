@@ -51,14 +51,15 @@
     --display-h1-decoration: none;
 }
 
+a {
+    padding-left: 2px;
+    padding-right: 2px;
+    border-radius: 2px;
+}
+
 .footer {
     margin-top: 75px;
     border-top: 0;
     text-align: center;
     color: var(--secondary-color);
-}
-
-.footer a {
-    padding-left: 2px;
-    padding-right: 2px;
 }
