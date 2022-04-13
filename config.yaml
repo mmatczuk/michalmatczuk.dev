@@ -16,3 +16,9 @@ params:
       url: projects/
     - name: about/
       url: about/
+
+markup:
+  highlight:
+    codeFences: true
+    noClasses: false
+    tabWidth: 4

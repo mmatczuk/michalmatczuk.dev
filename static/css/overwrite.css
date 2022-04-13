@@ -50,13 +50,12 @@
     --code-bg-color: #3f3f44;
      */
 
-    --display-h1-decoration: none;
+    --display-h1-decoration: true;
 }
 
 @media only screen and (max-width: 850px) {
     :root {
         --global-font-size: 14px;
-        --global-font-color: #444;
         --global-line-height: 1.6em;
         --page-width: 70em;
     }
@@ -206,4 +205,14 @@ a {
         margin-top: 50px;
         padding-top: 5px;;
     }
+}
+
+pre code {
+    font-family: var(--mono-font-stack);
+}
+
+.chroma {
+    background-color: #f5f5f5;
+    border-radius: 10px;
+    padding: 5px;
 }
