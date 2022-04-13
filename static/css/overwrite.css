@@ -59,7 +59,12 @@ a {
 
 .footer {
     margin-top: 75px;
+    padding-bottom: 30px;
     border-top: 0;
     text-align: center;
     color: var(--secondary-color);
+}
+
+.footer a {
+    font-size: 30px;
 }
