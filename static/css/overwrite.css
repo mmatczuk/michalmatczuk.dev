@@ -31,9 +31,10 @@
 }
 
 :root {
-    --mono-font-stack: Go Mono;
-    --font-stack: Go Mono;
-    --global-line-height: 1.6em;
+    --mono-font-stack: Go Mono, Courier New, monospace, serif;
+    --font-stack: Go Mono, Courier New, monospace, serif;
+    --global-font-size: 14px;
+    --global-line-height: 1.8em;
     --page-width: 70em;
 
     /*
@@ -53,14 +54,6 @@
     --display-h1-decoration: true;
 }
 
-@media only screen and (max-width: 850px) {
-    :root {
-        --global-font-size: 14px;
-        --global-line-height: 1.6em;
-        --page-width: 70em;
-    }
-}
-
 strong {
     font-weight: bold;
 }
@@ -70,7 +63,7 @@ strong {
 }
 
 .terminal-menu li {
-    margin-right: 30px;
+    margin-right: 20px;
 }
 
 figure {
@@ -209,10 +202,25 @@ a {
 
 pre code {
     font-family: var(--mono-font-stack);
+    font-size: var(--global-font-size);
 }
 
 .chroma {
     background-color: #f5f5f5;
     border-radius: 10px;
     padding: 5px;
+}
+
+img[alt="shield"] {
+    height: calc(var(--global-font-size) * 1.2);
+    width: auto;
+    display: inline-block;
+}
+
+img[alt="me"] {
+    height: auto;
+    width: auto;
+    border-radius: 125px;
+    float: left;
+    margin-right: var(--global-font-size);
 }

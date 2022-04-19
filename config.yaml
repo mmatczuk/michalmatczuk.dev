@@ -1,6 +1,7 @@
 baseURL: https://michalmatczuk.dev
 languageCode: en-us
 title: michalmatczuk.dev
+enableRobotsTXT: true
 
 params:
   titleCutting: false
@@ -10,10 +11,10 @@ params:
       url: posts/
     - name: talks/
       url: talks/
-    - name: books/
-      url: books/
     - name: projects/
       url: projects/
+    - name: books/
+      url: books/
     - name: about/
       url: about/
 

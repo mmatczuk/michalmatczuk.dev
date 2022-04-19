@@ -1,6 +1,6 @@
 ---
 date: 2017-08-25
-slug: gocqlx
+slug: gocqlx-a-productivity-toolkit-for-scylla-in-go
 tags:
   - scylla
   - gocqlx
@@ -86,7 +86,7 @@ Gocqlx builds on top of gocql to eliminate those issues and provides:
 * Scanning query results into structs based on field names
 * Convenience functions for common tasks like loading a single row into a struct or all rows into a slice (list) of structs
 
-# Building queries
+## Building queries
 
 Gocqlx provides query builders for SELECT, INSERT, UPDATE, DELETE and BATCH statements.
 The builders create a CQL query and a list of the named parameters used in it.
@@ -138,7 +138,7 @@ func main() {
 }
 ```
 
-# Binding query parameters
+## Binding query parameters
 
 Once we have a CQL query and a list of parameter names, gocqlx can help with binding the query parameters.
 Gocqlx can bind parameters from struct fields, maps, or both (bind from struct and fallback to map).
@@ -182,7 +182,7 @@ func main() {
 It’s worth to note that gocqlx by default maps camelcase Go struct field names to snake case database columns (i.e.
 “InReplyToScreenName” to “in_reply_to_screen_name”) so there is no need for manual tagging.
 
-# Scanning rows
+## Scanning rows
 
 Gocqlx provides two convenience functions: Get and Select.
 The former scans the first query results into a struct.
@@ -247,7 +247,7 @@ func main() {
 }
 ```
 
-# Performance
+## Performance
 
 Unlike many ORMs, gocqlx is fast.
 It uses the excellent [reflectx](https://github.com/jmoiron/sqlx/tree/master/reflectx) package (part of sqlx) for cached reflections.
@@ -267,14 +267,14 @@ BenchmarkE2EGocqlSelect-4     30000  2588562 ns/op  34605 B/op  946 allocs/op
 BenchmarkE2EGocqlxSelect-4    30000  2637187 ns/op  27718 B/op  951 allocs/op
 ```
 
-# Conclusions
+## Conclusions
 
 Gocqlx gives you much flexibility and significantly simplifies working with a Scylla / Cassandra database.
 The code is faster to write and easier to maintain and eliminates repetitive code and replaces it with more idiomatic constructs.
 The modular and simple design enables gocqlx to live along with gocql and leverage it where gocql shines.
 Gocqlx is fast and optimized.
 
-# Availability
+## Availability
 
 See the project website [https://github.com/scylladb/gocqlx](https://github.com/scylladb/gocqlx).
 Gocqlx is licensed under [Apache License 2.0](https://github.com/scylladb/gocqlx/blob/master/LICENSE).
