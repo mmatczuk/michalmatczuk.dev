@@ -33,9 +33,9 @@
 :root {
     --mono-font-stack: Go Mono, Courier New, monospace, serif;
     --font-stack: Go Mono, Courier New, monospace, serif;
-    --global-font-size: 14px;
+    --global-font-size: 13px;
     --global-line-height: 1.8em;
-    --page-width: 70em;
+    --page-width: 65em;
 
     /*
     --background-color: #222225;
