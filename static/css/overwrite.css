@@ -207,8 +207,14 @@ pre code {
 
 .chroma {
     background-color: #f5f5f5;
-    border-radius: 10px;
     padding: 5px;
+    border-radius: 10px;
+    overflow-x: scroll;
+    scrollbar-width: none;
+}
+
+.chroma::-webkit-scrollbar {
+    display: none;
 }
 
 img[alt="shield"] {
