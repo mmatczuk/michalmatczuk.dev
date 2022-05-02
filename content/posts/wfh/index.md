@@ -7,7 +7,7 @@ tags:
 title: "Working from Home: An Honest Look at the Remote Work Lifestyle"
 ---
 
-*This blog post has been first published in [ScyllaDB blog](https://www.scylladb.com).*
+*This blog post has been first published in [ScyllaDB blog](https://www.scylladb.com/author/mmatczuk/).*
 
 When offices close due to COVID-19 pandemic, many more of us will work from home, perhaps for the first time.
 Some people are thrilled about this idea.

@@ -8,7 +8,7 @@ tags:
 title: "ScyllaDB Manager 2.2: Repair Revisited"
 ---
 
-*This blog post has been first published in [ScyllaDB blog](https://www.scylladb.com).*
+*This blog post has been first published in [ScyllaDB blog](https://www.scylladb.com/author/mmatczuk/).*
 
 We released ScyllaDB Manager 1.0 to help our users manage repairs in February 2018.
 Since then a lot of things have changed.

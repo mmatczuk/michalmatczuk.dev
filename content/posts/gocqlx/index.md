@@ -7,7 +7,7 @@ tags:
 title: "Gocqlx: A Productivity Toolkit for Scylla in Go"
 ---
 
-*This blog post has been first published in [ScyllaDB blog](https://www.scylladb.com).*
+*This blog post has been first published in [ScyllaDB blog](https://www.scylladb.com/author/mmatczuk/).*
 
 [Gocqlx](https://github.com/scylladb/gocqlx) is an extension to the Go Scylla / Apache Cassandra driver Gocql.
 It aims to boost developer productivity while not sacrificing query performance.

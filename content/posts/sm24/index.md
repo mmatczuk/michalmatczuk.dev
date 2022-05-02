@@ -9,7 +9,7 @@ tags:
 title: "ScyllaDB Manager 2.4: Cloning a Database Cluster"
 ---
 
-*This blog post has been first published in [ScyllaDB blog](https://www.scylladb.com).*
+*This blog post has been first published in [ScyllaDB blog](https://www.scylladb.com/author/mmatczuk/).*
 
 Cloning a database cluster is probably the most common usage of backup data.
 This process can be very useful in case of a catastrophic event — say you were running in a single DC and it just burnt down overnight.
