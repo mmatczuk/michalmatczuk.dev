@@ -13,8 +13,6 @@ params:
       url: talks/
     - name: projects/
       url: projects/
-    - name: books/
-      url: books/
     - name: about/
       url: about/
 
